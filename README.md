@@ -67,7 +67,8 @@ When a target protein structure is available, users can upload a receptor file (
 
 ### Step 1: Environment Provisioning
 ```bash
-cd /home/igris/molgen
+git clone git@github.com:kssrikar4/VECTOR.git
+cd VECTOR
 conda env create --prefix ./env -f environment.yml
 ```
 
